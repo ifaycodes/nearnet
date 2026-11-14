@@ -1,0 +1,10 @@
+services:
+  engine:
+    image: docker.io/YOUR_USER/netting-engine@sha256:REPLACE_WITH_DIGEST
+    environment:
+      - ENGINE_ATTESTATION=dstack
+    ports:
+      - "8000:8000"
+    volumes:
+      - /var/run/dstack.sock:/var/run/dstack.sock
+    restart: always
