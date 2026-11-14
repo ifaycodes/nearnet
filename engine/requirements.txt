@@ -1,0 +1,7 @@
+pytest
+hypothesis
+fastapi
+uvicorn
+httpx
+pynacl
+dotenv
