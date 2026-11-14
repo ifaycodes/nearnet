@@ -168,13 +168,13 @@ Open your browser to `http://localhost:3000`.
   * Add Expected Participants: `Acme`, `Beta`
   * Click **"Create Cycle"**.
 * **See:** The UI creates the cycle and displays the **Active Cycle Banner** with a unique `Cycle ID` (e.g. `cycle-xyz...`) and status `open`.
-<img width="556" height="443" alt="image" src="https://github.com/user-attachments/assets/c3924087-3916-4189-9ab2-e9b6d44a0bc1" />
+<img width="555" height="424" alt="image" src="https://github.com/user-attachments/assets/5400280a-359a-42b1-b3a9-e06fb95310b1" />
 
 
 #### Step 4.3: Join and Register Browser Keys
 * **Do:** Under **"Cycle Participants & Slots"**, click **"Claim as Acme"**.
 * **See:** The browser generates an ephemeral Curve25519 keypair and registers Acme's slot.
-<img width="555" height="424" alt="image" src="https://github.com/user-attachments/assets/b630a9b1-d792-498f-86f7-500e2bee3926" />
+<img width="556" height="443" alt="image" src="https://github.com/user-attachments/assets/352a1173-33d1-4390-a8ec-d89dae1e3923" />
 <img width="346" height="384" alt="image" src="https://github.com/user-attachments/assets/21525871-3e17-4091-936f-8bb68366cd76" />
 
 
@@ -223,6 +223,8 @@ Open your browser to `http://localhost:3000`.
   * Engine Key: `Registered & Valid`
   * Cryptographic Signature: `Ed25519 Signature Verified`
   * Merkle Root Match: `Exact Match`
+<img width="1435" height="845" alt="image" src="https://github.com/user-attachments/assets/b8848215-e03f-4075-943e-f96bdc8a8dd4" />
+
     
 
 ---
