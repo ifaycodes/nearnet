@@ -1,0 +1,13 @@
+{
+  "name": "netting-receipts",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "near-sdk-js build src/contract.js build/receipts.wasm",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "near-sdk-js": "2.0.0"
+  }
+}
